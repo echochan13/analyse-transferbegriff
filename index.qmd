@@ -32,8 +32,11 @@ number-sections: true
 
 ## Einleitung
 
+[@quanteda]
+
 ```{r}
 # hier nötige Packages aufzählen
+library(quanteda)
 ```
 
 ```{r}
