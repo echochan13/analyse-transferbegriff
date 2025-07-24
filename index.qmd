@@ -1,0 +1,141 @@
+---
+title: "Wissenschaft-Praxis-Transfer im Wandel?"
+subtitle: "Analyse von Veränderungen des Transferverständnisses der empirischen Bildungsforschung in deutschsprachigen Fachzeitschriften"
+date: last-modified
+author:
+  - name: Caroline J. Scherer
+    orcid: 0009-0000-3512-0801
+    corresponding: true
+    email: c.scherer@dipf.de
+    affiliation: DIPF Frankfurt, IDeA-Zentrum
+  - name: Ulrike Hartmann
+    corresponding: false
+    affiliation: DIPF Frankfurt, IDeA-Zentrum
+  - name: Hannah Kleen
+    corresponding: false
+    affiliation: DIPF Frankfurt, IDeA-Zentrum
+  - name: Mareike Kunter
+    corresponding: false
+    affiliation: DIPF Frankfurt, IDeA-Zentrum, Goethe-Universität Frankfurt
+keywords:
+  - Wissenschaft-Praxis-Transfer
+  - Wissenstransfer
+  - Automatisierte Textanalyse
+  - Text Mining
+  - Topic Model
+abstract: |
+  Wissenschaft-Praxis-Transfer ist in der empirischen Bildungsforschung eine zentrale Herausforderung - der Begriff Transfer wird jedoch uneinheitlich verwendet und bleibt oftmals diffus. Die vorliegende Studie untersucht, wie der Begriff "Transfer" im Zeitraum 2000 bis 2024 in fünf deutschsprachigen Fachzeitschriften aus dem Bereich der empirischen Bildungsforschung gebraucht wurde und erfasst dabei zum einen begriffliche Variationen, zum anderen die Einbettung in den begrifflichen Kontext.
+format: 
+  html:
+    theme: cerulean
+    number-sections: true
+    fontsize: 0.85em
+    toc: true
+    toc-location: left
+    toc-depth: 3
+    embed-resources: true # will make standalone html file
+    code-fold: true
+    code-tools: true
+    code-link: true
+editor_options: 
+  chunk_output_type: console
+editor: visual
+bibliography: references.bib
+number-sections: true
+---
+
+## Einleitung
+
+[@quanteda]
+
+```{r}
+# hier nötige Packages aufzählen
+library(quanteda)
+```
+
+```{r}
+# vielleicht hier stopword-Liste reingeben?
+```
+
+Entweder hier Datensatz/Datensätze zum Download anbieten oder in den jeweiligen Abschnitten.
+
+## Daten einlesen {#sec-data-methods}
+
+```{r}
+
+```
+
+## Beschreibung des Korpus
+
+```{r}
+
+```
+
+## Analysen
+
+### Analyse des Transferbegriffs in der Gesamtzeitspanne
+
+Hier bisschen allgemeine Analysen
+
+```{r}
+
+```
+
+#### Frequenzanalyse
+
+```{r}
+
+```
+
+#### Bigrammanalyse/Kollokationsanalyse
+
+```{r}
+
+```
+
+#### Topic Modeling
+
+```{r}
+
+```
+
+### Analyse des Transferbegriffs im Zeitverlauf
+
+#### Frequenzanalyse
+
+```{r}
+
+```
+
+#### Bigrammanalyse/Kollokationsanalyse
+
+```{r}
+
+```
+
+#### Topic Modeling
+
+```{r}
+
+```
+
+## Computational Environment
+
+(Überschrift übersetzen?)
+
+### Packages
+
+```{r}
+installed.packages()[names(sessionInfo()$otherPkgs), "Version"]
+```
+
+### R-Version
+
+```{r}
+R.Version()
+```
+
+## Quellen {.unnumbered}
+
+::: {#refs}
+:::
